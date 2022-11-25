@@ -135,10 +135,10 @@ a{
     margin: 0px;
 }
 
-#carouselExampleDark{
-    margin: 60px 50px 0px 20px;
-    width: 450px !important;
-    height: 350px !important;
+.carousel{
+    margin: 45px 50px 0px 95px;
+    width: 500px !important;
+    height: 400px !important;
     position: relative;
     float: left;
 }
@@ -160,7 +160,7 @@ a{
 }
 
 .bo{
-    padding: 105px 250px 0px 0px;
+    padding: 85px 225px 0px 0px;
     position: relative;
     float: right;
 }
@@ -234,4 +234,21 @@ a{
         padding: 32px 0px 0px 0px;
     }
     
+    .bo{
+        margin: 45px 55px 45px 55px;
+        position: relative;
+        float: right;
+        padding: 0px 0px 0px 0px !important;
+    }
+
+    .carousel{
+        width: 300px !important;
+        height: 200px !important;
+        margin: 45px 45px 45px 45px;
+    }
+
+    .carousel-inner{
+        width: 300px !important;
+        height: 200px !important;
+    }
 }
