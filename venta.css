@@ -181,8 +181,50 @@ a{
     background-color: #ff8008;
 }
 
+.cotizar:hover{
+   background-color: #ffc837;
+}
+
 .servce li{
     padding: 0px 0px 10px 0px;
+}
+
+.adicional{
+    background: linear-gradient(to right, #ffc837, #ff8008);
+    min-height: 600px;
+}
+
+.vidiotioostias{
+    margin: 40px 0px 30px 0px;
+}
+
+.ad{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.d{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.k{
+    position: relative;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.l{
+    position: relative;
+    float: right;
+    margin: 45px 150px 0px 0px;
+    color: white;
 }
 
 @media only screen and (max-width: 600px){
@@ -235,7 +277,7 @@ a{
     }
     
     .bo{
-        margin: 45px 55px 45px 55px;
+        margin: 45px 55px 0px 55px;
         position: relative;
         float: right;
         padding: 0px 0px 0px 0px !important;
@@ -250,5 +292,19 @@ a{
     .carousel-inner{
         width: 300px !important;
         height: 200px !important;
+    }
+
+    .vidiotioostias{
+        width: 480px;
+        height: 450px;
+        margin: -60px;
+    }
+
+    .adicional{
+        margin-top: 200px;
+    }
+
+    .ad{
+        padding-top: 15px;
     }
 }
