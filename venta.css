@@ -227,6 +227,112 @@ a{
     color: white;
 }
 
+.foot{
+    background: linear-gradient(to right, #000000, #434343);
+    min-height: 250px;
+}
+
+.container{
+    color: white;
+}
+
+.apps{
+    display: grid;
+    grid-column: 3;
+}
+
+.alk{
+    display: flex;
+    gap: 25px;
+}
+
+.footlist{
+    padding: 40px 25px 0px 25px;
+    list-style: none;
+    width: 650px !important;
+}
+
+.flist {
+    padding: 10px 0px 20px 50px;
+}
+
+.imk{
+    border-radius: 10px;
+}
+
+.flis{
+    display: flex;
+    flex-flow: wrap;
+    gap: 25px;
+}
+
+.omar{
+    padding-top: 30px;
+}
+
+.sup{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 0px;
+}
+
+.sprt{
+    display: flex;
+    flex-direction: column;
+}
+
+.sprt a{
+    margin-top: 1rem;
+}
+
+.sprt a:hover{
+    color: black !important;
+}
+
+.empresita{
+    padding-top: 40px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+}
+
+.pres a{
+    margin-top: 1rem;
+}
+
+.pres a:hover{
+    color: black !important;
+}
+
+.acerca{
+    padding-top: 40px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.acrk2{
+    display: flex;
+    flex-direction: column;
+}
+
+.acrk2 a{
+    margin-top: 1rem;
+}
+
+.acrk2 a:hover{
+    color: black !important;
+}
+
+.txtunln:hover {
+    text-decoration: underline !important;
+}
+
 @media only screen and (max-width: 600px){
     
     .contenedor_del_header_displayflex{
