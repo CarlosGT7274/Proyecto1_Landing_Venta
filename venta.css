@@ -229,7 +229,7 @@ a{
 
 .foot{
     background: linear-gradient(to right, #000000, #434343);
-    min-height: 250px;
+    min-height: 350px;
 }
 
 .container{
@@ -401,9 +401,20 @@ a{
     }
 
     .vidiotioostias{
-        width: 480px;
+        width: 450px;
         height: 450px;
         margin: -60px;
+    }
+
+    .l{
+        margin-left: 0px;
+        margin-right: 15px;
+        width: 350px;
+        text-align: left;
+    }
+
+    .l .NAN{
+        display: none;
     }
 
     .adicional{
@@ -412,5 +423,35 @@ a{
 
     .ad{
         padding-top: 15px;
+    }
+
+    .footlist{
+        width: 350px !important;  
+        height: 300px;
+    }
+
+    .alk{
+        display: inerit;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 120px;
+    }
+
+    .sup{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        width: 110px;
+    }
+
+    .empresita{
+        width: 120px;
+        padding: 0px;
+    }
+
+    .acerca{
+        width: 100px;
+        padding: 0px;
+        padding-top: 20px;
     }
 }
